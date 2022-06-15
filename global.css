@@ -1,0 +1,19 @@
+:root{
+    --main-color: #ebeef5;
+    --secondary-color: #02577a;
+    --grey-color: #c4c4c4;
+    --nav-bg-color: #F7F6FF;
+    --white-color: #fff;
+}
+
+/* reset */
+body {
+    background-color: var(--main-color);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+}

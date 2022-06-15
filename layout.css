@@ -1,0 +1,104 @@
+.nav {
+    background-color: var(--nav-bg-color);
+    max-width: 100px;
+    height: 100%;
+    position: fixed;
+    transition: max-width 0.4s ease-in 0s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .nav .logo {
+    margin: 52px 0 24px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .nav hr {
+    width: 62px;
+    max-width: 62px;
+    height: 2px;
+    background-color: var(--grey-color);
+    margin: auto;
+    border: none;
+    margin-bottom: 32px;
+    transition: max-width 0.4s ease-in 0s;
+  }
+  .nav .icon-bg {
+    border-radius: 25px 0 0 25px;
+    margin-left: 11px;
+    padding: 0;
+    background-color: transparent;
+    margin: 34px 0 34px 11px;
+    display: flex;
+    align-items: center;
+  }
+  .nav .icon-bg:last-child .icon {
+    left: 30px;
+  }
+  .nav .icon-bg:last-child a {
+    margin-left: 49px;
+  }
+  .nav .icon-bg.active {
+    padding: 16px;
+    background-color: var(--white-color);
+  }
+  .nav .icon-bg.active .icon {
+    left: 26px;
+  }
+  .nav .icon-bg.active a {
+    color: var(--secondary-color);
+    margin-left: 42px;
+  }
+  .nav .icon-bg .icon {
+    position: relative;
+    left: 37px;
+  }
+  .nav .icon-bg a {
+    position: relative;
+    margin-left: 56px;
+    color: var(--grey-color);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+    transition-delay: 0.2s;
+  }
+  .nav .icon-bg a:hover {
+    text-decoration: underline;
+  }
+  .nav:hover {
+    max-width: 206px;
+    width: 206px;
+  }
+  .nav:hover hr {
+    width: 128px;
+    max-width: 128px;
+  }
+  .nav:hover a {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0px;
+    width: 346px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 11px;
+    border-top: 1px solid var(--secondary-color);
+    padding: 11px 0;
+  }
+  
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
